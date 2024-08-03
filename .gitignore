@@ -1,0 +1,23 @@
+# Ignore all .class files
+*.class
+
+# Ignore all directories named "bin" or "build" (common directories for compiled classes)
+bin/
+build/
+
+# Ignore other common build directories
+exercise/bin/
+example/bin/
+exercise/build/
+example/build/
+
+# Ignore IntelliJ IDEA specific files
+.idea/
+
+# Ignore Eclipse specific files
+.project
+.classpath
+
+# Ignore Sublime Text project files
+*.sublime-project
+*.sublime-workspace
